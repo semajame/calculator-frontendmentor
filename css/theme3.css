@@ -1,0 +1,52 @@
+body.theme3 {
+  background-color: hsl(268, 75%, 9%);
+}
+body.theme3 .calculator {
+  background-color: hsl(268, 75%, 9%);
+}
+body.theme3 .calculator h1 {
+  color: hsl(52, 100%, 62%);
+}
+body.theme3 .calculator .theme_container span {
+  color: hsl(52, 100%, 62%);
+}
+body.theme3 .calculator .theme_container .select_theme {
+  color: hsl(52, 100%, 62%);
+}
+body.theme3 .calculator .theme_container .select_theme .button_theme {
+  background-color: hsl(268, 71%, 12%);
+}
+body.theme3 .calculator .input_container input {
+  background-color: hsl(268, 71%, 12%);
+  color: hsl(52, 100%, 62%);
+}
+body.theme3 .calculator .numbers_container {
+  background-color: hsl(268, 71%, 12%);
+}
+body.theme3 .calculator .numbers_container button {
+  background-color: hsl(268, 47%, 21%);
+  color: hsl(52, 100%, 62%);
+  box-shadow: inset 0px -3px 0px 0px hsl(290, 70%, 36%);
+}
+body.theme3 .calculator .numbers_container .del {
+  background-color: hsl(281, 89%, 26%);
+  box-shadow: inset 0px -3px 0px 0px hsl(285, 91%, 52%);
+}
+body.theme3 .calculator .numbers_container .del:hover {
+  opacity: 50%;
+}
+body.theme3 .calculator .numbers_container .reset {
+  background-color: hsl(281, 89%, 26%);
+  box-shadow: inset 0px -3px 0px 0px hsl(285, 91%, 52%);
+}
+body.theme3 .calculator .numbers_container .reset:hover {
+  opacity: 50%;
+}
+body.theme3 .calculator .numbers_container .equals {
+  background-color: hsl(176, 100%, 44%);
+  color: hsl(268, 75%, 9%) !important;
+  box-shadow: inset 0px -3px 0px 0px hsl(177, 92%, 70%);
+}
+body.theme3 .calculator .numbers_container .equals:hover {
+  opacity: 50%;
+}/*# sourceMappingURL=theme3.css.map */

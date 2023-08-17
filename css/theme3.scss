@@ -1,0 +1,85 @@
+
+
+$very-dark-violet-main: hsl(268, 75%, 9%);
+$very-dark-violet-background: hsl(268, 71%, 12%);
+$dark-violet-key-background: hsl(281, 89%, 26%);
+$vivid-magenta-key-shadow:hsl(285, 91%, 52%);
+$very-dark-violet: hsl(268, 47%, 21%);
+$dark-magenta: hsl(290, 70%, 36%);
+$pure-cyan: hsl(176, 100%, 44%);
+$soft-cyan: hsl(177, 92%, 70%);
+$light-yellow: hsl(52, 100%, 62%);
+$very-dark-blue: hsl(198, 20%, 13%);
+$white: hsl(0, 0%, 100%);
+
+body.theme3{
+    background-color: $very-dark-violet-main;
+
+    .calculator{
+        background-color: $very-dark-violet-main;
+
+        h1{
+            color: $light-yellow;
+        }
+
+        .theme_container{
+            span{
+                color: $light-yellow;
+            }
+
+            .select_theme{
+                color: $light-yellow;
+
+                .button_theme{
+                    background-color: $very-dark-violet-background;
+                }
+            }
+        }
+
+        .input_container{
+            input{
+                background-color: $very-dark-violet-background;
+                color: $light-yellow;
+            }
+        }
+
+        .numbers_container{
+            background-color: $very-dark-violet-background;
+
+            button{
+                background-color: $very-dark-violet;
+                color:$light-yellow;
+                box-shadow: inset 0px -3px 0px 0px $dark-magenta;
+            }
+
+            .del{
+                background-color: $dark-violet-key-background;
+                box-shadow: inset 0px -3px 0px 0px $vivid-magenta-key-shadow;
+
+                &:hover{
+                    opacity: 50%;
+                }
+            }
+
+            .reset{
+                background-color: $dark-violet-key-background;
+                box-shadow: inset 0px -3px 0px 0px $vivid-magenta-key-shadow;
+
+                &:hover{
+                    opacity: 50%;
+                }
+            }
+
+            .equals{
+                background-color: $pure-cyan;
+                color: $very-dark-violet-main !important;
+                box-shadow: inset 0px -3px 0px 0px $soft-cyan;
+
+                &:hover{
+                    opacity: 50%;
+                }
+            }
+        }
+        
+    }
+}

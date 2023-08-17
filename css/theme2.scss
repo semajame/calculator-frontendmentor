@@ -1,0 +1,88 @@
+
+$light-gray: hsl(0, 0%, 90%);
+$grayish-red: hsl(0, 5%, 81%);
+$very-light-gray: hsl(0, 0%, 93%);
+$very-dark-grayish-yellow: hsl(60, 10%, 19%);
+$light-gray: hsl(0, 0%, 90%);
+$grayish-red: hsl(0, 5%, 81%);
+$very-light-gray: hsl(0, 0%, 93%);
+$dark-moderate-cyan: hsl(185, 42%, 37%);
+$very-dark-cyan: hsl(185, 58%, 25%);
+$orange: hsl(25, 98%, 40%);
+$dark-orange: hsl(25, 99%, 27%);
+$light-grayish-yellow: hsl(45, 7%, 89%);
+$dark-grayish-orange: hsl(35, 11%, 61%);
+
+
+*{
+    transition:350ms;
+}
+
+body.theme2{
+    background-color: $light-gray;
+
+    .calculator{
+        background-color: $light-gray;
+
+        h1{
+            color: $very-dark-grayish-yellow;
+        }
+
+        .theme_container{
+            span{
+                color: $very-dark-grayish-yellow;
+            }
+
+            .select_theme{
+                color: $very-dark-grayish-yellow;
+
+                .button_theme{
+                    background-color: $grayish-red;
+                    
+                }
+            }
+        }
+
+        .input_container{
+            input{
+                background-color: $very-light-gray;
+                color: $very-dark-grayish-yellow;
+            }
+        }
+
+        .numbers_container{
+            background-color: $grayish-red;
+
+            button{
+                color:$very-dark-grayish-yellow;
+            }
+
+            .del{
+                background-color: $dark-moderate-cyan;
+                box-shadow: inset 0px -3px 0px 0px $very-dark-cyan;
+
+                &:hover{
+                    opacity: 50%;
+                }
+            }
+
+            .reset{
+                background-color: $dark-moderate-cyan;
+                box-shadow: inset 0px -3px 0px 0px $very-dark-cyan;
+
+                &:hover{
+                    opacity: 50%;
+                }
+            }
+
+            .equals{
+                background-color: $orange;
+
+                &:hover{
+                    opacity: 50%;
+                }
+            }
+        }
+        
+    }
+}

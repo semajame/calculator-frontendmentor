@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+
+    <title>Calculator | Frontend Mentor</title>
+    
+</head>
+<body class="body">
+    <div class="calculator">
+        <section class="header">
+            <h1>calc</h1>
+
+            <div class="theme_container">
+                <span>THEME</span>
+
+                <div class="select_theme">
+                    <div class="theme_number">
+                        <div class="one">
+                            1
+                        </div>
+                        <div class="two">
+                            2
+                        </div>
+                        <div class="three">
+                            3
+                        </div>
+                    </div>
+
+                    <div class="button_theme">
+                        <button class="button1"></button>
+                        <button class="button2"></button>
+                        <button class="button3"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="input_container">
+            <input type="text" readonly id="input">
+        </section>
+
+        <section class="numbers_container">
+           <div class="numbers_grid">
+                <button value="7" onclick = " input.value += '7' ">7 </button>
+                <button value="8" onclick = " input.value += '8' ">8</button>
+                <button value="9"  onclick = " input.value += '9' ">9</button>
+                <button value="DEL" onclick="input.value = input.value.toString().slice(0,-1)" class="del">DEL</button>
+
+                <button value="4"  onclick = " input.value += '4' ">4</button>
+                <button value="5"  onclick = " input.value += '5' ">5</button>
+                <button value="6"  onclick = " input.value += '6' ">6</button>
+                <button value="+"  onclick = " input.value += '+' ">+</button>
+
+                <button value="1" onclick = " input.value += '1' ">1</button>
+                <button value="2" onclick = " input.value += '2' ">2</button>
+                <button value="3" onclick = " input.value += '3' ">3</button>
+                <button value="-" onclick = " input.value += '-' ">-</button>
+
+                <button value="." onclick = " input.value += '.' ">.</button>
+                <button value="0" onclick = " input.value += '0' ">0</button>
+                <button value="/" onclick = " input.value += '/' ">/</button>
+                <button value="*" onclick = " input.value += '*' ">x</button>
+
+                <button value="RESET" onclick="input.value = '' " class="reset">RESET</button>
+                <button value="=" class="equals" onclick = " input.value = eval(input.value) " class="equals">=</button>
+           </div>
+        </section>
+    </div>
+</body>
+
+<script type="module" src="script.js"></script>
+</html>

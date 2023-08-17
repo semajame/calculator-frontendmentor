@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+@import '/css/theme2.css';
+@import '/css/theme3.css';
+body {
+  font-family: "League Spartan", sans-serif;
+  background: hsl(222, 26%, 31%);
+  overflow: hidden;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  max-width: 450px;
+  background-color: hsl(222, 26%, 31%);
+}
+.calculator .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between !important;
+}
+.calculator .header h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+}
+.calculator .header .theme_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  align-items: end !important;
+}
+.calculator .header .theme_container span {
+  margin-right: 1rem;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+.calculator .header .theme_container .select_theme .theme_number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.4rem;
+  font-size: 0.725rem;
+  justify-content: space-between !important;
+}
+.calculator .header .theme_container .select_theme .button_theme {
+  padding: 0.3rem;
+  gap: 0.5rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: hsl(224, 36%, 15%);
+}
+.calculator .header .theme_container .select_theme .button_theme button {
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  border: none;
+  cursor: pointer;
+}
+.calculator .header .theme_container .select_theme .button_theme .button1 {
+  opacity: 1;
+  background-color: hsl(6, 63%, 50%);
+}
+.calculator .header .theme_container .select_theme .button_theme .button2 {
+  opacity: 0;
+  background-color: hsl(25, 98%, 40%);
+}
+.calculator .header .theme_container .select_theme .button_theme .button3 {
+  opacity: 0;
+  background-color: hsl(176, 100%, 44%);
+}
+.calculator .input_container {
+  margin: 2rem 0;
+}
+.calculator .input_container input {
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(224, 36%, 15%);
+  width: 100%;
+  font-size: 3.5rem;
+  color: hsl(0, 0%, 100%);
+  text-align: right;
+}
+.calculator .numbers_container {
+  border-radius: 10px;
+  background-color: hsl(223, 31%, 20%);
+  justify-content: space-between !important;
+  padding: 1.5rem;
+}
+.calculator .numbers_container button {
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  color: hsl(221, 14%, 31%);
+  background-color: hsl(30, 25%, 89%);
+  cursor: pointer;
+  font-size: 1.8rem;
+  box-shadow: inset 0px -3px 0px 0px hsl(28, 16%, 65%);
+}
+.calculator .numbers_container button:hover {
+  background-color: hsl(0, 0%, 100%);
+}
+.calculator .numbers_container .numbers_grid {
+  display: grid;
+  font-size: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+.calculator .numbers_container .numbers_grid .del {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(225, 21%, 49%);
+  font-size: 1.5rem;
+  box-shadow: inset 0px -3px 0px 0px hsl(224, 28%, 35%);
+}
+.calculator .numbers_container .numbers_grid .reset {
+  grid-area: 5/3/6/5;
+  grid-area: 5/1/6/3;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(225, 21%, 49%);
+  font-size: 1.5rem;
+  box-shadow: inset 0px -3px 0px 0px hsl(224, 28%, 35%);
+}
+.calculator .numbers_container .numbers_grid .equals {
+  grid-area: 5/3/6/5;
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(6, 63%, 50%);
+  box-shadow: inset 0px -3px 0px 0px hsl(6, 70%, 34%);
+}
+
+@media screen and (max-width: 470px) {
+  .calculator {
+    padding: 2rem 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */

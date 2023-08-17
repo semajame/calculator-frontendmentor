@@ -1,0 +1,52 @@
+* {
+  transition: 350ms;
+}
+
+body.theme2 {
+  background-color: hsl(0, 0%, 90%);
+}
+body.theme2 .calculator {
+  background-color: hsl(0, 0%, 90%);
+}
+body.theme2 .calculator h1 {
+  color: hsl(60, 10%, 19%);
+}
+body.theme2 .calculator .theme_container span {
+  color: hsl(60, 10%, 19%);
+}
+body.theme2 .calculator .theme_container .select_theme {
+  color: hsl(60, 10%, 19%);
+}
+body.theme2 .calculator .theme_container .select_theme .button_theme {
+  background-color: hsl(0, 5%, 81%);
+}
+body.theme2 .calculator .input_container input {
+  background-color: hsl(0, 0%, 93%);
+  color: hsl(60, 10%, 19%);
+}
+body.theme2 .calculator .numbers_container {
+  background-color: hsl(0, 5%, 81%);
+}
+body.theme2 .calculator .numbers_container button {
+  color: hsl(60, 10%, 19%);
+}
+body.theme2 .calculator .numbers_container .del {
+  background-color: hsl(185, 42%, 37%);
+  box-shadow: inset 0px -3px 0px 0px hsl(185, 58%, 25%);
+}
+body.theme2 .calculator .numbers_container .del:hover {
+  opacity: 50%;
+}
+body.theme2 .calculator .numbers_container .reset {
+  background-color: hsl(185, 42%, 37%);
+  box-shadow: inset 0px -3px 0px 0px hsl(185, 58%, 25%);
+}
+body.theme2 .calculator .numbers_container .reset:hover {
+  opacity: 50%;
+}
+body.theme2 .calculator .numbers_container .equals {
+  background-color: hsl(25, 98%, 40%);
+}
+body.theme2 .calculator .numbers_container .equals:hover {
+  opacity: 50%;
+}/*# sourceMappingURL=theme2.css.map */
